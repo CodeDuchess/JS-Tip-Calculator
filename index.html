@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"></meter>
+  <title>Tip Calculator</title>
+
+  <!-- Onsen UI CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+  <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+
+  <!-- local style sheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- local JS -->
+  
+</head>
+  <body>
+
+    <!-- app heading -->
+    <ons-page>
+       <ons-toolbar>
+      <div>Tip Calculator</div>
+        </ons-toolbar>
+   
+      <section>
+        <input id= "billAmount" class="text-input text-input--material" placeholder="Bill Amount" type="text">
+        </div>
+        
+        <div>
+          
+        </div>
+          <ons-range id ="tipRange" draggable= "true" value="18" min="0" max="50" step=".5">
+          </ons-range>
+
+          <output id="percentOut">18%</output>
+        </div>
+
+        <div> <ons-button modifier="large" id="btnCalculate">Calculate Tip</ons-button></div>
+        </section>
+
+        <section>
+          
+          <output id="result"></output>
+        </section> 
+       
+        </ons-page>    
+      
+      </section>
+
+      <script src="tip.js" type="text/javascript"></script>
+   </body>
+</html>
