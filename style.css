@@ -1,0 +1,31 @@
+section {
+	padding: 10px;
+}
+
+
+div {
+	margin-bottom: 20px;
+}
+
+ons-range {
+	width: 100%;
+} 
+
+.toolbar {
+	width: 	300px;
+	font-size: 22px;
+	font-weight: bold;
+		
+}
+
+.range_input {
+	width: 	300px;
+}
+
+#btnCalculate {
+	background-color: darkolivegreen;
+	width: 200px;
+	height: 50px;
+	border-radius: 12px;
+	margin-top: 15px;
+}
